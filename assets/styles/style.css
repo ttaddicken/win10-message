@@ -1,0 +1,33 @@
+header{
+    height: 80px;
+    background: darkblue;
+    color: #fff;
+    text-align: center;
+    border:5px solid black;
+
+}
+footer{
+    height: 200px;
+    background: darkblue;
+    color: #fff;
+    text-align: center;
+    border:5px solid black;
+
+}
+.main-content-container{
+    min-height: 800px;
+
+}
+.main-content-container-sidebar{
+    border:1px solid;
+    display: inline-block;
+    width:29%;
+    float: right;
+    
+}
+.main-content-article{
+    width: 70%; 
+    border: 1px solid;
+    display: inline-block;
+    
+}
