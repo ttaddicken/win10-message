@@ -1,3 +1,6 @@
+html{
+    font-family: sans-serif
+}
 header{
     height: 80px;
     background: darkblue;
@@ -18,16 +21,57 @@ footer{
     min-height: 800px;
 
 }
-.main-content-container-sidebar{
-    border:1px solid;
+.main-content-container-sidebar-right{
     display: inline-block;
-    width:29%;
+    width:16%;
     float: right;
+    
+}
+.main-content-container-sidebar-left{
+    display: inline-block;
+    width:12%;
+    float: left;
     
 }
 .main-content-article{
     width: 70%; 
-    border: 1px solid;
     display: inline-block;
     
+}
+.right{
+    float:right;
+}
+.left{
+    float:left;
+}
+.article-title{
+    border-top: 20px solid #cfe2f3;
+    padding-top: 20px;
+    text-align: center;
+}
+.side-article{
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 2px solid black
+    
+}
+.image-placeholder{
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: darkblue;
+    color: #fff;
+    border: 2px solid black;
+    text-align: center;    
+}
+.side-article-title{
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+.side-article-hover{
+    background-color: magenta;
+    color:aqua;
+    margin: 40px 0;
+    border:4px dotted tomato
 }
